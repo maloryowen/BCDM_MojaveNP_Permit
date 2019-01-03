@@ -1,0 +1,139 @@
+---
+title: Linking avian pollination and frugivory to *Cactaceae* seed dispersal and successful
+  facilitation.
+author: "Malory Owen and Chris Lortie"
+date: "November 27th, 2018"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+bibliography: thesisbib.bib
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+###Table of Contents
+```
+
+###Abstract
+Double mutualism is a positive interaction where one taxanomic group provides services to a benefactor at two different life stages of the benefactor. Birds are known pollinators and seed dispersals for members of the Cactaceae family. These two positive interactions are limiting factors for seed dispersal, which impact a mother plant's seed shadow and reproductive success, particularly so when seed rain is deposited in beneficial conditions for germination (like under a facilitating benefactor shrub). In this study, we will examine the first step in the double mutualistic seed dispersal pathway of pollinating and frugivorous birds for two species of cactus: Opuntia basiliaris and Cylindropuntia anthrocarpa. Determining visitation rates based on the species, size, flower/fruit production of cacti and the potential seed rain and seed shadow influenced by these double mutualisms could shed light on the potential reproductive success that cacti with different characteristics have. Mapping these pathways will improve our understanding of the impact of double mutualism on habitat structure and growth. 
+
+Key words: ecology, mutualism, positive interactions, facilitation, seed dispersal
+
+##Overview
+###I. Statement of Issue
+Desert ecosystems are threatened by a variety of circumstances. Anthropogenic actions like climate change and habitat fragmentation are perpetuating arid ecosystem degradation. Specifically, climate change increases severe precipitation changes such as droughts and flooding [@Nielsen2015; @Pfahl2017; @Singh2013; @Smith2011], and human development like roads, solar panels, and land use change fragments and destroys habitats [@Gutzwiller2003; @Hernandez2014; @Rodriguez-Estrella2007]. In the American Southwest, arid ecosystems are home to 350 endangered/threatened plants and animals [@California2018a; @California2018b], provide ecosystem services to humans [@Taylor2017], and have cultural significance to indigenous peoples. In order to restore the region and mitigate the effects of climate change and human development, we must understand the connections that support and sustain biodiversity in deserts. 
+
+###II. Literature Review
+Positive interactions are any associative action between interspecifics where one species benefits performance or fitness of another in some capacity [@Bertness1994]. Positive interactions are shown to be strong determinants of the structure of ecosystems, thereby showing the interconnected and non-random way communities are formed [@Callaway1997; @Gelmi-Candusso2017]. In a similar, but narrower sense, facilitation is the process by which a foundational species perpetuates the success of many other individuals within an ecosystem--particularly in years of high stress [@Maestre2009]. This concept suggests that facilitation among plants and animals by foundational species is a driving forces behind an ecosystem's development [@Angelini2011; @Almeida2018]. Additionally, these interactions are evolutionarily beneficial to parties due to the mutualistic nature of the benefits the interacting individuals may receive both within and between species, even when costs are accounted for [@Barker2017; @Bronstein2009; @Bronstein2001]. In arid ecosystems, positive interactions can provide water and shade from excessive solar radiation for other plants and animals [@Flores-Torres2017; @Miranda-Jacome2013], or to a lesser extent, prevent physical damage from herbivory, wind, and freezing temperatures [@Gomez-Aparicio2008; @Parker1989; @Tewksbury2001; @Nobel1980]. Benefactor plants provide these amenities to seedlings, improve recruitment, germination, and growth in juvenile plants [@Franco2009]. This makes benefactor plants important facilitators for many species. Some of these protege plants are even obligated to be deposited under the canopy of a benefactor plant to germinate at all [@Drezner2003; @Drezner2010]. Therefore, the benefactor plant is a limiting factor in the growth of many plant species. 
+
+However, a seed must arrive under the canopy of a benefactor plant in order to receive the benefits of associating with a benefactor. Because plants are sessile lifeforms, the movement of seeds must rely of some abiotic or biotic vector of transportation [@Nathan2000]. Seed rain is the placement of of a seed after being deposited either through endozoochory, exozoochory, wind dispersal, or mechanical dispersal, whereas seed shadow refers to the placement of daughter seeds relative to the mother plant [@Willson1993]. There is ample research in regards to the successful recruitment and germination of seed rain based on the benefactor plant as well as the effect of the endozoochorous disperser's gut on germination rate and success [@Verdu2004; @Traveset2001; @Traveset2002]. This research provides the base work to enhance our knowledge on the relative importance of dispersers, particularly in arid ecosystems and to the end of deposition at facilitating benefactor plants. These interactions are examples of non-trophic, mechanistic pathways that directly determine the biodiversity of birds and cacti, and indirectly influences the biodiversity of other benefactor species, as cacti are keystone species in arid ecosystems [@Lortie2016].
+
+There are two instances of positive interactions that perpetuate seed dispersal: pollination and frugivory. This connection of two mutualistic events through a single taxonomic group is known as double mutualism, and is a rare event but present in birds [@Kelly2004; @Ladley1996]. Double mutualism is most common in harsh ecosystems with relatively low biodiversity, such as arid deserts [@Garcia2012; @Gomes2014]. We suggest that double mutualism of cacti by pollinating/frugivorous birds may be a key factor in cactus reproduction, and eventual successful facilitation. Mechanistically, in order to be dispersed via bird frugivory, a cactus must have some characteristic which drives that frugivory. As allocation theory suggests, cacti have evolved to allocate energy and resources to anatomical traits that best increase their relative fitness [@Obeso2004]. Perhaps these traits that are attractive to frugivorous birds also improve fitness beyond just ability to be dispersed. For example, fruit size/number and seed size/number are reproductive organ characteristics which may determine both frugivory, and by extension, fitness in plants. Fruit and frugivory are not the only ways birds increase fitness of cacti. Fruiting is dependent on pollination, a service that birds, particularly hummingbirds, can provide. Foragers (like pollinators) will sacrifice energy while foraging until a patch's resource availability is equal to the average resource availability of the entire habitat, or until the energy expended foraging outweighs the energy gained. This resource density value is known as the Giving-up Density (GUD), and is based on the Marginal value theorem (MVT) which is a model that predicts foraging behavior when resources exist in patches [@Charnov1976]. This principle governs pollination visitation, a metric for pollination interaction strength. Height of inflorescence and showiness of inflorescence display are contributing factors to hummingbird pollinator visitation, as higher flowers are more likely to be seen by flying hummingbirds [@Wolf1990; @Mitchell1994], and more flowers will draw more hummingbirds. If larger cacti have more flowers, we may expect more hummingbird pollinator visits, and therefore produce more fruit, thereby increasing relative fitness for cacti.
+
+###III. Scope of Study
+Bird-cacti interactions are likely driving forces behind the infrastructure of desert ecosystems, but more research on plant-animal interactions is needed. Members of the Cactaceae family in the *Opuntia* and *Clyndropuntia* genuses, which are both benefactors and proteges, may rely heavily on positive bird interactions at the flowering and fruiting stage to reproduce successfully. In these studies, we will identify the pollinating and dispersing strength of birds for different species and characteristics of cacti, and increase understanding of interactions at the community level's role in determining an ecosystem's biotic structure.  
+
+While the feild work will take place in the Mojave Desert, mostly at the Sweeney Granite Desert Mountains Desert Research Center (this may expand depending on the distribution of flowers and fruit), but the scope of this work is centainly beyond the study sites. Positve interactions are a fundamental driver of habitat infrastructure across multiple biomes. In deserts, understanding the pathways of distribution for cacti will illuminate management strategies to restore desert spaces by facilitating improved cacti dispersal. However, because pollination and seed dispersal are necessary for many plant species' reproduction, this study may enlighten mutualistic processess across all biomes where birds and angiosperms interact. 
+
+###IV. Intended use of results
+This project is the chapter two of Malory Owen's Masters of Science thesis and is therefore an academic endeavor. All collected data will be available for public viewing within a Github repository. With thes results, we will seek to publish a within a peer-reviewed journal (which will also be available to read as a pre-print on PeerJ). There will be no commercial use of the data or findings associated with the study.
+
+##Objectives and Hypotheses of Study
+Bird-cacti interactions are likely driving forces behind the infrastructure of desert ecosystems, but more research on plant-animal interactions is needed. Members of the Cactaceae family in the *Opuntia* and *Clyndropuntia* genuses, which are both benefactors and proteges, may rely heavily on positive bird interactions at the flowering and fruiting stage to reproduce successfully. In these studies, we will identify the pollinating and dispersing strength of birds for different species and characteristics of cacti, and increase understanding of interactions at the community level's role in determining an ecosystem's biotic structure.
+
+Purpose: This chapter will examine the interactions between pollinating/frugivorous bird interactions and observed and experimentally manipulated characteristics for 3 cacti species. 
+
+Research Questions:
+1. How strong are bird-cacti interactions based on different cactus characteristics?
+2. Is there a relationship between seed size, seed abundance, fruit size, fruit/flower abundance, and cactus size?
+
+Hypothesis: Birds and cacti are linked through positive interactions in desert ecosystems, with plant size being a determining factor of interaction strength.
+Predictions:
+  a. Bird visitation rates for pollination and frugivory are positively related to cactus characteristics.
+  b. The bird-cacti relationship is species specific (both for bird and cacti species).
+
+##Methods
+I. Description of Study Area
+While most of the project will take place at the Sweeny Granite Mountains Desert Research Center, some areas outside the Center may need to be accessed as a part of the study (particularly if rain should limit the number of flowering and fruiting cacti at the Center). We will prioritize working at the Center, so only "overflow" of individuals needed for study would be conducted at the Mojave National Park. We would like to conduct our study in shrubby-cactus areas with low human interactions, so as to avoid impact on bird visitation, as well as areas of the park more closely situated to the Sweeney Granite Mountains Desert Research Center. Any exact areas will be determined in situ (as containing study species and reasonably accessible), but will be within the Southwest corner of the park near Kelso Dunes off of Kelbaker Road (35.023508, -115.664896) and near Granite Mountains (34.781610, -115.652820). When deploying camera traps, we won't be conducting any work on areas legally designated as Wilderness.
+
+II. Procedures
+Flowering Experimental
+We will arrive in April/May during the flowering season to observe pollinating birds interactions with 300 cactus individuals (10 replications per characteristic combination). The cacti will have different levels of manipulated "showiness" (0%, 25%, 50%, 75%, 100% percent of flowers) of 3 size classes (small, medium, large determined after a preliminary measurement week in the Granite Mountains) and 2 species (*Cylindropuntia anthrocarpa* and *Opuntia basilaris*). We will snip X% of buds off the cactus, but also record the number of blooming flowers on each individual when performing observations, as not all flowers of a cactus bloom concurrently.
+
+While the flowering season for our study cacti is in May, the cactus individual itself only blooms for 1-2 days throughout the season. Additionally, we are most interested in hummingbirds as pollinators, which are nearly impossible to document on camera traps and difficult to identify by eye in the field (especially female/juveniles). Because of these constraints, we will primarily rely on focal observations aided by a 200-500mm digital camera. We will do 1-hour observations in mornings and evenings at each combination of variables 4 times (120 hours of observations). During this time, we will also be equipped with audio recorders with parabolic shields to make recordings of bird calls *ad libitum*.
+
+Fruiting Experiment
+Next, in August, we will begin the fruiting observation and experiment--it will be nearly identical to the flowering experiment, but with some added components. Each combination of variables (species, size, and fruit percent) will again have 10 replicates, meaning 300 cacti will be a part of the study. We will remove 0%, 25%, 50%, 75%, and 100% of fruits from small, medium, and large cacti for all three species. We will immediately place each cactus's fruit in a sealed zip lock bag to prevent desiccation while in the field. Post collection, we will weigh the fruits and sieve the seeds for weighing and counting. 
+
+We will place a camera trap at an individual sample cactus for all combinations of variables >5m away from the cactus (30 cameras). We will leave this camera to record movement for 5 days taking still images. After 5 days, we will randomly choose a new cactus/open site for each treatment combination to place camera traps at. We will replicate this process 5 times, over 25 days. Because camera traps may be unreliable recorders of bird abundance, we will also use audio recordings to measure bird presence. We will record during our focal observations (see below) *ad libitum* during both the cactus and open observations. Sound recorders have been shown to be as reliable a measurement of bird presence compared to walking point transects, and are more time and cost effective [@Darras2018]. To identify bird calls, we will classify the calls by ear, and then use a audio software program, like Sound Analysis Pro 2011 to identify the many hours of audio data [@Grieves2014; @Grieves2015].
+
+In addition to passive monitoring, we will also perform focal observations, equipped with 200-500mm digital cameras. We will be at least 10 meters from the cactus, so as not to impact bird abundance. These focal observations will last for 1 hour in mornings or evenings, and be performed 4 times at each combination of treatments (120 total hours of focal observation). We will record each bird individual's species and behavior (using an ethogram). Should there be more than one individual present, we will record the visiting species, but continue behavior observation for the first arrival birds (for up to 10 minutes, although this time limit is unlikely to be surpassed considering bird movement). Once the focal bird has left the cactus of interest, we will note the location it arrived at after leaving the cactus of interest.
+
+Paired Flowering & Fruiting Observations
+Because the manipulated flowering and fruiting cacti will not be paired, we will also perform a paired observational study. To link flowering number to fruiting number, we will find 20 individuals of each species (40 cacti total) in flowering season, and count the number of flowers/buds, determine the branching pattern, and measure their volume (x, y, z axis). We will also measure the sucrose content of the nectar for each plant using a radiometer, as sucrose is the nutritional source in nectar for hummingbirds [@MartinezDelRio1990]. These cacti will be geographically logged, and revisited in the fruiting season. In August, we will similarly collect and count the number of fruit. These data will allow us to compare flowering patterns with fruiting patterns in paired individuals across species. 
+
+III. Collections
+Throughout both experiments, 600 cacti will be monitored in some capacity of the study (300 for flowering and 300 for fruiting); half from *Opuntia basilaris* and half from *Cylindropuntia anthrocarpa*. Of those, 120 will not have any snippings taken from them in either flowering or fruiting life stages. However, all flowers or all fruit (100% snipping) will be removed from 120 cacti total. To avoid flower removable as a confounding variable of fruit production, we cannot use the same cacti that had been manipulated in the flowering experiment in the fruiting experiment. These snippings (flowers and fruits) will be removed from the surrounding area so that they do not impact bird visitation. Unlike many other collections, it is not the acquitision of these collectables which facilitate the experiment, but rather the removal. This means that any repositories which may hold those samples which we are collecting are not relevant to this study.
+
+IV. Analysis
+In order to account for the multivariate nature of the experiment, we plan to employ a Generalized Linear Mixed Model (GLMM) to determine impacts of different traits on bird visitation. 
+
+V. Schedule
+1/9/2019-1/9/2019: Preliminary field season to determine size and branching patterns of *Opuntia basilaris* and *Cylindropuntia anthrocarpa* at the Sweeney Granite Mountains Desert Research Center. 
+5/1/2019-5/30/2019: Flowering field season to determine pollinating bird visitation rates at flowering cacti of differing species, sizes, and number of flowers. These are soft dates.
+8/1/2019-8/30/2019: Fruiting field season to determine frugivorous bird vistation rates at flowering cacti of differing species, sizes, and number of flowers. These are soft dates. 
+9/1/2019-12/30/2019: Data analysis and re-analysis. These are soft dates.
+1/1/2019-4/30/2019: Manuscript writing, submission, and review. Attend conferences and publish preprints to communicate results. These are soft dates.
+
+Budget
+This project is funded through NSERC and York University, and is roughly $3000. Most of this budget will be spent on accomodations, gas, and a digital camera. 
+
+##Products
+I. Publications and Reports
+This study, being conducted by Malory Owen who is a Masters Study from York University, is an academic endeavor. Dat and results collected will be presented as a part of her thesis defense, and we expect to publish several peer-reviewed journal articles through the project. We will attend conferences (such as the California Native Plant Society conference) to present talks and/or posters. 
+
+II. Collectables
+Flowers collected through snipping do not need to be retained, and will be discarded should no MNP officials wish to retain the samples. We propose that all collected fruit be taken to York University in Toronto, Ontario for potential future work in regards to cactus fruit nutrition levels, or greenhouse experiments. 
+
+III. Data and other materials
+All data, including raw data, camera trap images, photographs, and audio files, will be backed up on a personal computer, external hard-drive, and a Github repository. In the interest of open science, all data will be publically available.
+
+##Literature Cited
+
+##Qualifications
+Malory Owen is the primary investigator and 1st year Masters Student of Biology at York University. Her Curriculum Vitae is attached.
+
+Chris Lortie is a integrative ecologist and professor of Biology at York University located in Toronto, Ontario. He is also a Geography Graduate Falculty member of York University and a research fellow at the National Center for Ecological Analysis and Synthesis in Santa Barbara, California. His research interests include positive interactions within desert ecosystems at the community level, with focus on pathways including both animals and plants. A graduate advisor with many successful graduate students (both past and present), Dr. Lortie has experience in conducting safe, effective, and pertinant ecological research that has both restoration/conservation applications and theoretical significance. He has published at least 200 articles with 156 being peer-review cholarly publications, 6 book chapters, 51 datasets, and an extensive collection of open access writings, blog posts, slide decks, and videos.
+
+Jenna Braun is a recent Biology Masters of Science graduate (with distinction) from York University who has worked in the Mojave Desert as a part of Dr. Lortie's lab for 2 years. She has advised Malory on scientific and logistical aspects of the project, having done work both in the Sweeny Granite Mountain Desert Research Center and recieved a permit to work in Mojave National Preserve (study title: , study number: MOJA, permit nunber: ). Her work focused on pollinator-plant interactions of foundational shrub species.
+
+Alex Filazzola is a post-doc recently recieved his PhD from York University working in Dr. Lortie's lab. He now works as a post-doc in Dr. Lortie's lab as well as a fellow researcher (Shapna Sharma) at York University. He also completed some of his field work at Mojave National Park (study title: “A desert shrub (Larrea tridentata) facilitates the germination of winter annuals in California”, study number: MOJA-00279, permit number: MOJA-2014-SCI-0006.) He has over 4 years experience in the Southern Californian deserts.
+
+##Supporting Documentation and Special Concerns
+I. Safety
+Spending time in harsh, arid environments means there will always be safety concerns. We will be spending several hours a day in direct sunlight, potentially in areas without cellular service, and be walking long distances (several miles a day). Appropriate precautions must be taken: packing water and food, air pump for car, sunscreen, emergency signal sender. That being said, Malory has personally spent several weeks doing field work in the California desert, backpacking in the backcountry, and has recieved advice on safety precautions from her lab mates and advisor, all of whom have many years experience working in desert environments. 
+
+II. Access to study sites
+All access to sites will be done using a field vehicle (likely a Jeep, although the vehicle is yet to be purchased) for long distances which are accessible by road. However, the vehicle will not travel off road, and instead we will hike as necessary in order to facilitate the least amount of disturbance. No backcountry camping will be necessary, and instead all study periods will be day trips only, likely for no more than 10 hours at a time. We will stay within reasonable walking distance of the road (for safety purposes), while seeking to avoid measurements unnessecarily close to the road to avoid conveniance sampling bias. 
+
+III. Use of mechanized and other equipment
+Equipment is limited to a handheld digital camera attached to a monopod for stability, a handheld parabolic recorder, non-invasive tags to mark study individuals, and camera traps. Camera traps and tags are the only equipment to be left in the field (25 days total in each season). 
+
+IV. Chemical use
+NA; No chemical use. 
+
+V. Ground disturbance
+NA; There will be no ground disturbance.
+
+VI. Animal welfare
+NA; This study will not include capture, holding, marking, tagging, tissue sampling, or other handling of animals. 
+
+VII. NPS assistance
+NA; No assistance from NPS officials is necessary to the completion of this study. 
+
+VIII. Wilderness minimum requirements protocol
+Camera traps will not be deployed on lands designated on Wildnerness; Any Wildnerness access will be low-impact measuring and monitoring of cacti individuals and bird visitors, respectively.
+
